@@ -35,4 +35,4 @@ jobs:
         run: docker build -t seongbinlee/songdo .
         
       - name: Push docker image
-        run: docker pushseongbinlee/songdo:latest
+        run: docker push seongbinlee/songdo:latest
